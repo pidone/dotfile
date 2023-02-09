@@ -1,0 +1,9 @@
+[user]
+	email = pd@secfault.org
+	name = Pidone
+[core]
+	editor = /usr/bin/nvim
+[alias]
+	st = status
+	aa = add --all
+	ci = commit
