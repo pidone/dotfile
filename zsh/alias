@@ -1,0 +1,5 @@
+alias s='kitty +kitten ssh'
+alias cclip='xclip -selection clipboard'
+
+# source ./alias_kali
+source ./alias_local

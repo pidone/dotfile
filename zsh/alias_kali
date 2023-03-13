@@ -1,0 +1,6 @@
+alias aslr_off='echo 0 | sudo tee /proc/sys/kernel/randomize_va_space'
+alias sss='searchsploit'
+alias ssm='searchsploit -m'
+alias ssv='searchsploit -x'
+alias nse='ls /usr/share/nmap/scripts | grep'
+alias godirbust='gobuster dir -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -u'
