@@ -1,5 +1,7 @@
 alias s='kitty +kitten ssh'
 alias cclip='xclip -selection clipboard'
+alias vim=nvim
+alias mux=tmuxinator
 
-# source ./alias_kali
-source ./alias_local
+source "$ZSHDIR/alias_kali"
+source "$ZSHDIR/alias_local"

@@ -1,0 +1,15 @@
+## Install rustup
+# curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# cargo install alacritty
+# cargo install tree-sitter-cli
+#
+# git clone --depth 1 git@github.com:ryanoasis/nerd-fonts ~/.local/share/nerd-fonts
+# ~/.local/share/nerd-fonts/install FiraCode
+# cat kali_packages | xargs sudo apt install -y 
+# install neovim from source
+# git clone https://github.com/neovim/neovim
+# cd neovim && git checkout stable && make CMAKE_BUILD_TYPE=Release
+# sudo make install
+DOTFILES=$HOME/dotfiles
+
+ln -s $DOTFILES/zshenv $HOME/.zshenv

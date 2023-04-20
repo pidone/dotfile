@@ -2,8 +2,14 @@
 	email = pd@secfault.org
 	name = Pidone
 [core]
-	editor = /usr/bin/nvim
+	editor = /usr/local/bin/nvim
 [alias]
 	st = status
 	aa = add --all
 	ci = commit
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
