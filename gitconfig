@@ -2,7 +2,7 @@
 	email = pd@secfault.org
 	name = Pidone
 [core]
-	editor = nvim
+	editor = $EDITOR
 [alias]
 	st = status
 	aa = add --all
