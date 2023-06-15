@@ -2,10 +2,9 @@ local setup, bufferline = pcall(require, "bufferline")
 if not setup then return end
 
 bufferline.setup({
-  closable = false, -- Enable/disable close button
-  clickable = false, -- Enables/disable clickable tabs
+  clickable = true, -- Enables/disable clickable tabs
   tabpages = true, -- Enable/disable current/total tabpages indicator (top right corner)
-  icons = "both", -- Enable/disable icons
+  icons = { buffer_index = true, filetype = { enabled = true } }
 })
 
 local map = vim.api.nvim_set_keymap
