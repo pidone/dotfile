@@ -3,5 +3,5 @@ alias cclip='xclip -selection clipboard'
 alias vim=nvim
 alias mux=tmuxinator
 
-source "$ZSHDIR/alias_kali"
-source "$ZSHDIR/alias_local"
+source "$ZDOTDIR/alias_kali"
+source "$ZDOTDIR/alias_local"

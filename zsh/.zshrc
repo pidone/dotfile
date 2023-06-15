@@ -1,6 +1,7 @@
 # ~/.zshrc file for zsh interactive shells.
 # see /usr/share/doc/zsh/examples/zshrc for examples
 
+export XDG_CONFIG_HOME="$HOME/.config"
 
 setopt autocd              # change directory just by typing its name
 #setopt correct            # auto correct mistakes
@@ -258,12 +259,10 @@ if [ -f /etc/zsh_command_not_found ]; then
     . /etc/zsh_command_not_found
 fi
 
-export ZSHDIR=$HOME/.config/zsh
-
-if [ -f "$ZSHDIR/alias" ]; then
-   . "$ZSHDIR/alias"
+if [ -f "$ZDOTDIR/alias" ]; then
+   . "$ZDOTDIR/alias"
 fi
 
-if [ -f "$ZSHDIR/local" ]; then
-   . "$ZSHDIR/local"
+if [ -f "$ZDOTDIR/local" ]; then
+   . "$ZDOTDIR/local"
 fi
