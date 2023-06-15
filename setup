@@ -4,7 +4,7 @@
 # cargo install tree-sitter-cli
 #
 # git clone --depth 1 git@github.com:ryanoasis/nerd-fonts ~/.local/share/nerd-fonts
-# ~/.local/share/nerd-fonts/install FiraCode
+# ~/.local/share/nerd-fonts/install.sh FiraCode
 # cat kali_packages | xargs sudo apt install -y 
 # install neovim from source
 # git clone https://github.com/neovim/neovim

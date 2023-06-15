@@ -266,3 +266,8 @@ fi
 if [ -f "$ZDOTDIR/local" ]; then
    . "$ZDOTDIR/local"
 fi
+
+if [ -n "$CARGO_HOME" ]; then
+   export PATH="$CARGO_HOME/bin:$PATH"
+fi
+
