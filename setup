@@ -7,6 +7,7 @@
 # ~/.local/share/nerd-fonts/install.sh FiraCode
 # cat kali_packages | xargs sudo apt install -y 
 # install neovim from source
+# sudo apt-get install ninja-build gettext cmake unzip curl
 # git clone https://github.com/neovim/neovim
 # cd neovim && git checkout stable && make CMAKE_BUILD_TYPE=Release
 # sudo make install
