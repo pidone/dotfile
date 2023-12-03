@@ -1,16 +1,27 @@
-## Install rustup
-# curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-# cargo install alacritty
-# cargo install tree-sitter-cli
 #
 # git clone --depth 1 git@github.com:ryanoasis/nerd-fonts ~/.local/share/nerd-fonts
 # ~/.local/share/nerd-fonts/install.sh FiraCode
 # cat kali_packages | xargs sudo apt install -y 
 # install neovim from source
-# sudo apt-get install ninja-build gettext cmake unzip curl
+# sudo apt-get install ninja-build gettext cmake unzip curl pkg-config
 # git clone https://github.com/neovim/neovim
 # cd neovim && git checkout stable && make CMAKE_BUILD_TYPE=Release
 # sudo make install
 DOTFILES=$HOME/dotfiles
 
 ln -s $DOTFILES/zshenv $HOME/.zshenv
+ln -s $DOTFILES/zsh $HOME/.config/zsh
+ln -s $DOTFILES/gitconfig $HOME/.gitconfig
+ln -s $DOTFILES/alacritty $HOME/.config/alacritty
+#git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
+ln -s $DOTFILES/tmux $HOME/.config/tmux
+ln -s $DOTFILES/tmux-powerline $HOME/.config/tmux-powerline
+
+sudo apt-get install -y ninja-build gettext cmake unzip curl pkg-config
+
+## Install rustup
+# curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# cargo install alacritty
+# cargo install tree-sitter-cli
+# cargo install lsd
+# cargo install bat
