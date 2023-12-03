@@ -18,5 +18,9 @@ opt.textwidth = 120
 opt.clipboard = "unnamedplus"
 opt.scrollbind = false
 opt.wildmenu = true
+opt.expandtab = true
+opt.smartindent = true
+opt.tabstop = 2
+opt.shiftwidth = 2
 
 vim.wo.signcolumn = "yes"
