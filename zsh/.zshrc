@@ -271,3 +271,6 @@ if [ -n "$CARGO_HOME" ]; then
    export PATH="$CARGO_HOME/bin:$PATH"
 fi
 
+if [ -n "$LOCAL_BIN" ]; then
+   export PATH="$LOCAL_BIN:$PATH"
+fi
