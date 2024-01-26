@@ -269,8 +269,17 @@ fi
 
 if [ -n "$CARGO_HOME" ]; then
    export PATH="$CARGO_HOME/bin:$PATH"
+   . "$CARGO_HOME/env"
 fi
 
 if [ -n "$LOCAL_BIN" ]; then
-   export PATH="$LOCAL_BIN:$PATH"
+    export PATH="$PATH:$LOCAL_BIN"
+fi
+
+if [ $ATUIN_ENABLED ]; then
+    eval "$(atuin init zsh --disable-up-arrow)"
+fi
+
+if [ $DIRENV_ENABLED ]; then
+    eval "$(direnv hook zsh)"
 fi

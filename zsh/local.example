@@ -1,3 +1,7 @@
 export CARGO_HOME="$HOME/.local/cargo"
+export RUSTUP_HOME=$HOME/.local/rustup
 export LOCAL_BIN="$HOME/.local/bin"
-export EDITOR="vim"
+export EDITOR=vim
+
+export ATUIN_ENABLED=true
+export DIRENV_ENABLED=1
