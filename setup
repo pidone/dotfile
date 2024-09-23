@@ -25,3 +25,4 @@ sudo apt-get install -y ninja-build gettext cmake unzip curl pkg-config
 # cargo install tree-sitter-cli
 # cargo install lsd
 # cargo install bat
+# cargo install atuin
