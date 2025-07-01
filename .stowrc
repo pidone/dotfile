@@ -1,0 +1,6 @@
+--target=~/.config
+--ignore=.stowrc
+--ignore=setup.sh
+--ignore=README.md
+--ignore=kali_packages
+--ignore=zshenv
