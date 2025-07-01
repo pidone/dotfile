@@ -269,7 +269,6 @@ fi
 
 if [ -n "$CARGO_HOME" ]; then
    export PATH="$CARGO_HOME/bin:$PATH"
-   . "$CARGO_HOME/env"
 fi
 
 if [ -n "$LOCAL_BIN" ]; then
@@ -282,4 +281,8 @@ fi
 
 if [ $DIRENV_ENABLED ]; then
     eval "$(direnv hook zsh)"
+fi
+
+if [ -n $STARSHIP_CONFIG ]; then
+    eval "$(starship init zsh)"
 fi
