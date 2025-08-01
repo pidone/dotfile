@@ -1,4 +1,7 @@
 atftp
+alacritty
+atuin
+bat
 bloodhound
 bloodhound.py
 build-essential
@@ -31,12 +34,13 @@ libxkbcommon-dev
 libxml2-dev
 libxmlsec1-dev
 luajit
+lsd
 mingw-w64
 mingw-w64-i686-dev/
 mingw-w64-tools
 mingw-w64-x86-64-dev
 most
-ntpdate
+ntpsec-ntpdate
 peass
 php-curl
 php-xml
@@ -45,7 +49,7 @@ powercat
 ptunnel-ng
 pup
 python3
-python3.11-venv
+python3-venv
 python3-wsgidav
 rlwrap
 ruby-highline
@@ -54,6 +58,7 @@ sshpass
 sshuttle
 tk-dev
 tmuxinator
+tree-sitter-cli
 xq
 xz-utils
 zlib1g-dev
